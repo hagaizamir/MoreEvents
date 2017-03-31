@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         int rgb = Color.rgb(sbRed.getProgress(),sbGreen.getProgress(),sbBlue.getProgress());
         tvResult.setBackgroundColor(rgb);
 //        int x = 0xff00ff;
+        String s = Integer.toHexString(rgb).toUpperCase();
     }
 
     @Override
